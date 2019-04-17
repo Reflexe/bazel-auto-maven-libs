@@ -24,7 +24,7 @@ http_archive(
     urls = ["https://github.com/Reflexe/bazel-auto-maven-libs/archive/%s.zip" % bazel_auto_maven_libs_version],
 )
 
-load("@bazel_auto_maven_libs//:maven_lib.bzl", "maven_libs")
+load("@bazel_auto_maven_libs//:maven_libs.bzl", "maven_libs")
 
 maven_libs(
   name = "third_party",
