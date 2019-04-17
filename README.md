@@ -20,7 +20,7 @@ load(
 bazel_auto_maven_libs_version = 'master'
 http_archive(
     name = "bazel_auto_maven_libs",
-    strip_prefix = "bazel_auto_maven_libs-%s" % bazel_auto_maven_libs_version,
+    strip_prefix = "bazel-auto-maven-libs-%s" % bazel_auto_maven_libs_version,
     urls = ["https://github.com/Reflexe/bazel-auto-maven-libs/archive/%s.zip" % bazel_auto_maven_libs_version],
 )
 
